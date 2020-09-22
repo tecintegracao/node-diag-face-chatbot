@@ -1,0 +1,27 @@
+{
+  "name": "nodedialogbot",
+  "version": "1.0.0",
+  "description": "Um chatbot simples construído com node js e dialogflow",
+  "engines": {
+    "node": "13.6.0",
+    "npm": "6.13.4"
+  },
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Sérgio Murilo",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.2.4",
+    "body-parser": "^1.18.3",
+    "dialogflow": "^1.2.0",
+    "express": "^4.16.4",
+    "request": "^2.88.0",
+    "uuid": "^3.3.2"
+  }
+}
